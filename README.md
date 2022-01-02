@@ -75,7 +75,6 @@ Line 62  } ends the code for the chart.
  Line 396: Starts code for HTML customization with the required google chart container inside.
  I included the google chart container inside HTML to help format.
  
- 
  **The required code for each chart to show must include:**
 1. <div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> 
 
