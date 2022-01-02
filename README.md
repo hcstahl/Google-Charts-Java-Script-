@@ -111,7 +111,7 @@ It's helpful to keep the _div end at the end of the name to keep track.<br />
 In this example we named the control "piedashboard_div" in line 252 inside the document.getElementById().<br />
 
 Next we have to include each div for the control this is under the comment<br />
-Divs that will hold each control and chart <br />
+Divs that will hold each control and chart in line  <br />
 <div id="piefilter_div"></div> piefilter_div is the div name we gave in line 257<br />
 <div id="piechart_div" style="width: 800px; height: 500px;"></div> piechart_div is the div name we gave in line 267. <br />
 
