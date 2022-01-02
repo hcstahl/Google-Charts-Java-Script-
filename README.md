@@ -15,7 +15,9 @@ Code within these lines is only for establishing html stlyle.
 
 # Start Up 17-34
 **Line 17- 20:** includes code needed to establish google charts.<br />
+
 **Line 23:** includes all packages needed for every chart and controls to load.<br />
+
 **Line 25-34:** Every chart needs a initilization code **EX: google.charts.setOnLoadCallback()<br />
 **It can be named anything but it needs to be established and consistant for each chart. <br />
 The name must be referenced back when the code for each chart starts. 
@@ -25,6 +27,7 @@ This is how I was personally able to get the sheet query to work.<br />
 Each chart has it's own google sheet to reference the data and is public if given the url.<br />
 Every url starts with http://spreadsheets.google.com/tq?key=<br /> 
 Then after is each sheets own code which can be found when you visit the google sheet and go to the url above and copy everything after d/<br />
+
 # Chart Template without controls
 **Line 41:**  is the charts beginning function which has to match the same name you gave during initilization (Line 25)<br />
 **function** Enter name given inside () of set.OnLoadCallback<br />
@@ -40,7 +43,9 @@ Each chart has it's own **name**.send function which sends the data source to a 
 **responseOne**. This includes a basic statement if there is an error in query instead of a blank page.<br />
 
 **Line 51 - 62:** Is personalized options for the chart including title options, axis options etc. **This is inside the function name var optionsOne = {**<br />
+
 **Line 62:** }; needed.<br />
+
 **Line 66:** var **Name the data source for each chart** In this case I have seperate date sources for each chart so they will have their own individualized name.<br /> 
 This equals **The parameter name we made earlier which went inside our check function** <br />
 **responseOne**.getDataTable();<br />
@@ -62,8 +67,10 @@ chartName.draw(data, options);<br />
 
 # Chart Template with Controls ***Referencing Chart 9 starting in line 236***<br />
  **Line 236 -249:** is the same template as before.<br />
+ 
  **Line 250:** starts the difference in code for the chart template. <br />
  We create a variable to hold the dashboard and name the variable and the id div uniquely to the chart.<br />
+ 
  **Line 254- 261:** This is the control button in the chart we are creating and there are options to customize the type of button we want in the chart.<br />
  
  The  'controlType': 'CategoryFilter'is **not a unique name we give it**. Google Charts has different filter types to choose from and you put the associated name.<br />
@@ -74,7 +81,9 @@ chartName.draw(data, options);<br />
   I have also selected to only allow one option in the drop down.<br />
     
 'filterColumnIndex': 2, is saying the drop down menu will choose between the categories in column two in your google chart.<br />
+
 **Line 265-285:** This includes the actual chart customization and options.<br />
+
 **Line 287:** You have to bind your dashboard, slider and actual chart every time and this uses the unique names you give in the code.<br />
 
 Below is the line number to reference back to each var creation<br />
@@ -83,10 +92,12 @@ piedashboard.bind(pieRangeSlider, chartEight);<br />
   
 **Line 289:** The code which will draw the chart. <br />
 This only includes the data and not options because the chart options are inside the var chartEight.<br />
+
 **Line 292:** The required  } to end the chart making. <br />
   
   # End of chart
 **Line 389:** Includes indication of ending the chart making process. <br />
+
 **Line 396:** Starts code for HTML customization with the required google chart container inside. I included the google chart container inside HTML to help format.<br />
  
  **The required code for each chart to show must include:**<br />
