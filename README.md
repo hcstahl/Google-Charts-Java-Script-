@@ -3,6 +3,13 @@ Data modeled by querying from Google Sheets and using Java Script to create inve
 
 # Table of Contents
 [Languages](https://github.com/hcstahl/GoogleCharts#languages)
+[Launch](https://github.com/hcstahl/GoogleCharts#launch)
+[Formatting](https://github.com/hcstahl/GoogleCharts#formatting--line-1-14)
+[Start Up](https://github.com/hcstahl/GoogleCharts#start-up-17-34)
+[Query](https://github.com/hcstahl/GoogleCharts#query-line)
+[Chart Template without controls]()
+[Chart Template with Controls ]()
+[End of chart]()
 
 # Languages
 Java Script
@@ -23,7 +30,7 @@ Code within these lines is only for establishing html stlyle.
 **It can be named anything but it needs to be established and consistant for each chart. <br />
 The name must be referenced back when the code for each chart starts. 
 
-# Query Line 
+# Query 
 This is how I was personally able to get the sheet query to work.<br />
 Each chart has it's own google sheet to reference the data and is public if given the url.<br />
 Every url starts with http://spreadsheets.google.com/tq?key=<br /> 
