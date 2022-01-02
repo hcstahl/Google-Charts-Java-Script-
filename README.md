@@ -65,8 +65,9 @@ chartName.draw(data, options);<br />
 
 **Line 62:**  } ends the code for the chart.<br />
 
-# Chart Template with Controls ***Referencing Chart 9 starting in line 236***<br />
- **Line 236 -249:** is the same template as before.<br />
+# Chart Template with Controls 
+***Referencing Chart 9 starting in line 236***<br />
+**Line 236 -249:** is the same template as before.<br />
  
  **Line 250:** starts the difference in code for the chart template. <br />
  We create a variable to hold the dashboard and name the variable and the id div uniquely to the chart.<br />
@@ -105,9 +106,11 @@ This only includes the data and not options because the chart options are inside
 ![image](https://user-images.githubusercontent.com/80172196/147891777-7558d7ab-2e33-4c6c-8abd-59808a066183.png)
 
 
- ## If chart had controls ***Referencing chart 8 in line 236.***<br />
+ ## If chart had controls 
+ ***Referencing chart 8 in line 236.***<br />
 
-The div id name you gave the control. Note this is the name in div id, and NOT the name you gave the var.<br />
+The div id name you gave the control must be included. <br />
+Note this is the name in div id, and NOT the name you gave the var.<br />
 It's helpful to keep the div end at the end of the name to keep track.<br />
 
 **Line 455:**: In this example we named the control "piedashboard_div" in line 252 inside the document.getElementById().<br />
