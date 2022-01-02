@@ -113,8 +113,8 @@ This only includes the data and not options because the chart options are inside
  **This the name you gave for the div id name and not the var chart name**
 ![image](https://user-images.githubusercontent.com/80172196/147891777-7558d7ab-2e33-4c6c-8abd-59808a066183.png)
 
-***If chart had controls ***
- ***Referencing chart 8 in line 236.***<br />
+# End of chart with controls
+***Referencing chart 8 in line 236.***<br />
 
 The div id name you gave the control must be included. <br />
 Note this is the name in div id, and NOT the name you gave the var.<br />
