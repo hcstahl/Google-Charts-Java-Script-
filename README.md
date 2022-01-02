@@ -67,10 +67,7 @@ Line 62  } ends the code for the chart.
   
   
   
-  
-
-  
- # End of chart
+  # End of chart
  Line 389: Includes indication of ending the chart making process. 
  Line 396: Starts code for HTML customization with the required google chart container inside.
  I included the google chart container inside HTML to help format.
