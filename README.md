@@ -68,9 +68,7 @@ Line 62  } ends the code for the chart.
   
   
   
-  
-  
-  
+
   
  # End of chart
  Line 389: Includes indication of ending the chart making process. 
@@ -79,14 +77,15 @@ Line 62  } ends the code for the chart.
  
  
  **The required code for each chart to show must include:**
-1.<div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> 
+1. <div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> 
 
 **If chart had controls** Referencing chart 9 in line 296.
 The div id name you gave the control.
-2. <div id="dashboard_div"> In this example we named the control "dashboard_div" in line 310 inside the document.getElementById().
+2.  <**div id="dashboard_div">** In this example we named the control "dashboard_div" in line 310 inside the document.getElementById().
  Next we have to include each div for the control this is under the comment
       <!--Divs that will hold each control and chart--> 
-      <div id="filter_div"></div>  The name "filter_div" is the name in line 315 in the code 'containerId': 'filter_div',
-      <div id="chart_div"></div> The name "chart_div" is the name in line 329 in the code 'containerId': 'chart_div', 
+      3. <div id="filter_div"></div>  The name "filter_div" is the name in line 315 in the code 'containerId': 'filter_div',
+      4. <div id="chart_div"></div> The name "chart_div" is the name in line 329 in the code 'containerId': 'chart_div', 
 
+Note that every important part has <div which has indicator this is required for Google Charts and not extra html styling. 
 
