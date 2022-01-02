@@ -2,15 +2,15 @@
 Data modeled by querying from Google Sheets and using Java Script to create inveractive charts.
 
 # Table of Contents
-[Languages](https://github.com/hcstahl/GoogleCharts#languages)
-[Launch](https://github.com/hcstahl/GoogleCharts#launch)
-[Formatting](https://github.com/hcstahl/GoogleCharts#formatting--line-1-14)
-[Start Up](https://github.com/hcstahl/GoogleCharts#start-up-17-34)
-[Query](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#query)
-[Chart Template without controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-without-controls)
-[Chart Template with Controls ](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-with-controls)
-[End of chart](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart)
-
+[Languages](https://github.com/hcstahl/GoogleCharts#languages)<br />
+[Launch](https://github.com/hcstahl/GoogleCharts#launch)<br />
+[Formatting](https://github.com/hcstahl/GoogleCharts#formatting--line-1-14)<br />
+[Start Up](https://github.com/hcstahl/GoogleCharts#start-up-17-34)<br />
+[Query](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#query)<br />
+[Chart Template without controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-without-controls)<br />
+[Chart Template with Controls ](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-with-controls)<br />
+[End of chart without Controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart)<br />
+[End of chart with Controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart-with-controls)<br />
 # Languages
 Java Script
 HTML
@@ -104,7 +104,7 @@ This only includes the data and not options because the chart options are inside
 
 **Line 292:** The required  } to end the chart making. <br />
   
-  # End of chart
+  # End of chart without controls
 **Line 389:** Includes indication of ending the chart making process. <br />
 
 **Line 396:** Starts code for HTML customization with the required google chart container inside. I included the google chart container inside HTML to help format.<br />
