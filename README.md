@@ -6,10 +6,10 @@ Data modeled by querying from Google Sheets and using Java Script to create inve
 [Launch](https://github.com/hcstahl/GoogleCharts#launch)
 [Formatting](https://github.com/hcstahl/GoogleCharts#formatting--line-1-14)
 [Start Up](https://github.com/hcstahl/GoogleCharts#start-up-17-34)
-[Query](https://github.com/hcstahl/GoogleCharts#query-line)
-[Chart Template without controls]()
-[Chart Template with Controls ]()
-[End of chart]()
+[Query](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#query)
+[Chart Template without controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-without-controls)
+[Chart Template with Controls ](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-with-controls)
+[End of chart](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart)
 
 # Languages
 Java Script
@@ -113,8 +113,7 @@ This only includes the data and not options because the chart options are inside
  **This the name you gave for the div id name and not the var chart name**
 ![image](https://user-images.githubusercontent.com/80172196/147891777-7558d7ab-2e33-4c6c-8abd-59808a066183.png)
 
-
- ## If chart had controls 
+***If chart had controls ***
  ***Referencing chart 8 in line 236.***<br />
 
 The div id name you gave the control must be included. <br />
