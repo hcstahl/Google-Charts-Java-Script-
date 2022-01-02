@@ -59,13 +59,29 @@ chartName.draw(data, options);
 
 Line 62  } ends the code for the chart.
 
-# Chart Template with Controls
+# Chart Template with Controls Referencing Chart 9 starting in line 236
+ Line 236 -249 is the same template as before.
+ Line 250 starts the difference in code for the chart template. 
+ We create a variable to hold the dashboard and name the variable and the id div uniquely to the chart.
+ Line 254- 261: This is the control button in the chart we are creating and there are options to customize the type of button we want in the chart.
+ The  'controlType': 'CategoryFilter'is **not a unique name we give it**. Google Charts has different filter types to choose from and you put the associated name.
+ The 'containerId': 'piefilter_div', is a unique name we give for the chart and acess later.
  
+ 'ui': {'allowNone':false,
+		  'allowMultiple':false} is a customization to make the chart always choose a default option on the button so the chart doesn't look weird. 
+    I have also selected to only allow one option in the drop down. 
+    
+    'filterColumnIndex': 2, is saying the drop down menu will choose between the categories in column two in your google chart.
+Line 265-285: This includes the actual chart customization and options.
+Line 287: You have to bind your dashboard, slider and actual chart every time and this uses the unique names you give in the code.
+
+Below is the line number to reference back to each var creation
+piedashboard.bind(pieRangeSlider, chartEight);
+Line 251,(Line 255, Line 265)
   
-  
-  
-  
-  
+Line 289: The code which will draw the chart. 
+This only includes the data and not options because the chart options are inside the var chartEight.
+ Line 292: The required  } to end the chart making. 
   
   # End of chart
  Line 389: Includes indication of ending the chart making process. 
@@ -73,15 +89,19 @@ Line 62  } ends the code for the chart.
  I included the google chart container inside HTML to help format.
  
  **The required code for each chart to show must include:**
-1. <div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> 
+<div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> 
 
-**If chart had controls** Referencing chart 9 in line 296.
-The div id name you gave the control.
-2.  <**div id="dashboard_div">** In this example we named the control "dashboard_div" in line 310 inside the document.getElementById().
- Next we have to include each div for the control this is under the comment
-      <!--Divs that will hold each control and chart--> 
-      3. <div id="filter_div"></div>  The name "filter_div" is the name in line 315 in the code 'containerId': 'filter_div',
-      4. <div id="chart_div"></div> The name "chart_div" is the name in line 329 in the code 'containerId': 'chart_div', 
+ **If chart had controls** Referencing chart 8 in line 236.
+The div id name you gave the control. Note this is the name in div id, and NOT the name you gave the var.
+It's helpful to keep the _div end at the end of the name to keep track.
 
-Note that every important part has <div which has indicator this is required for Google Charts and not extra html styling. 
+<div id="piedashboard_div">
+In this example we named the control "piedashboard_div" in line 252 inside the document.getElementById().
+
+Next we have to include each div for the control this is under the comment
+ <!--Divs that will hold each control and chart--> 
+ <div id="piefilter_div"></div> piefilter_div is the div name we gave in line 257
+ <div id="piechart_div" style="width: 800px; height: 500px;"></div> piechart_div is the div name we gave in line 267. 
+
+Note that every important part has <div which has indicator this is required for Google Charts.. 
 
