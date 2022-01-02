@@ -9,7 +9,7 @@ Data modeled by querying from Google Sheets and using Java Script to create inve
 [Query](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#query)<br />
 [Chart Template without controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-without-controls)<br />
 [Chart Template with Controls ](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#chart-template-with-controls)<br />
-[End of chart without Controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart)<br />
+[End of chart without Controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart-without-controls)<br />
 [End of chart with Controls](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#end-of-chart-with-controls)<br />
 # Languages
 Java Script
