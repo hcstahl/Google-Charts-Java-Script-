@@ -2,7 +2,7 @@
 Data modeled by querying from Google Sheets and using Java Script to create inveractive charts.
 
 # Table of Contents
-[Languages](https://github.com/hcstahl/GoogleCharts/blob/main/README.md#languages)<br />
+[Languages](#languages)<br />
 [Launch](https://github.com/hcstahl/GoogleCharts#launch)<br />
 [Formatting](https://github.com/hcstahl/GoogleCharts#formatting--line-1-14)<br />
 [Start Up](https://github.com/hcstahl/GoogleCharts#start-up-17-34)<br />
