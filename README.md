@@ -1,8 +1,6 @@
 # Data Visualization with Google Charts https://sites.google.com/view/hcstahlgc/home 
 Data modeled by querying from Google Sheets and using Java Script to create inveractive charts.
- ### Table of Contents
 
-  
 # Languages
 Java Script
 HTML
