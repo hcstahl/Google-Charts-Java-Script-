@@ -104,16 +104,16 @@ This only includes the data and not options because the chart options are inside
 <div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> <br />
 
  **If chart had controls** ***Referencing chart 8 in line 236.***<br />
+
 The div id name you gave the control. Note this is the name in div id, and NOT the name you gave the var.<br />
-It's helpful to keep the _div end at the end of the name to keep track.<br />
+It's helpful to keep the div end at the end of the name to keep track.<br />
 
-<div id="piedashboard_div"><br />
-In this example we named the control "piedashboard_div" in line 252 inside the document.getElementById().<br />
+**Line 455:**: In this example we named the control "piedashboard_div" in line 252 inside the document.getElementById().<br />
 
-Next we have to include each div for the control this is under the comment<br />
-Divs that will hold each control and chart in line 457-458 <br />
- piefilter_div is the div name we gave in line 257<br />
- piechart_div is the div name we gave in line 267. <br />
+Next we have to include each div for the control.<br />
+
+**Line 457** piefilter_div is the div name we gave in line 257<br />
+**Line 458:** piechart_div is the div name we gave in line 267. <br />
 
 Note that every important part has <div which has indicator this is required for Google Charts.<br />
 
