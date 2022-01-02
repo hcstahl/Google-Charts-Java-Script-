@@ -100,8 +100,9 @@ This only includes the data and not options because the chart options are inside
 
 **Line 396:** Starts code for HTML customization with the required google chart container inside. I included the google chart container inside HTML to help format.<br />
  
- **The required code for each chart to show must include:**<br />
-<div id="div container name you gave the chart" style="width: 800px; height: 500px;"></div> <br />
+ **The required code for each chart to show must include: the div id associated with the chart**<br />
+![image](https://user-images.githubusercontent.com/80172196/147891777-7558d7ab-2e33-4c6c-8abd-59808a066183.png)
+
 
  **If chart had controls** ***Referencing chart 8 in line 236.***<br />
 
